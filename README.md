@@ -83,3 +83,8 @@ https://docs.langchain.com/oss/python/integrations/chat/ollama
 Embeddings:
 
 https://docs.langchain.com/oss/python/integrations/text_embedding/ollama
+
+The complete Sherlock Holmes - Stories in Plain text format
+Single short stories are available at the end of the page
+
+https://sherlock-holm.es/ascii/
