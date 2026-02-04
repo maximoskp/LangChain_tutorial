@@ -1,5 +1,10 @@
 # LangChain_tutorial
-This tutorial covers how to use LangChain for Agents, RAG, Knowledge Graphs, GraphRAG and other subjects around these concepts. Local models from Ollama are employed for no-cost testing and security.
+
+This tutorial covers the basics on how to use LangChain for Agents and RAG, while it covers how to use LangChain for constructing Knowledge Graphs from text. The tutorial digresses a bit into the GraphRAG territory, introducing shortly Neo4J and showing some very basic graph-language interactions. Additional tutorials will follow that will cover GraphRAG and Agents in more detail, however, this tutorial is a good entry point for people who want to get a firm understanding on the opportunities and limitations of the aforementioned approaches.
+
+Aim of this tutorial is to employ only local models, for no-cost testing and security. To this end, Ollama models that run locally on machines with very small GPUs - or without GPUs at all, though much slower.
+
+## Suggested system setup
 
 For running the tutorials, you will need to have python, conda for creating and managing python environments and VSCode for reading/writing and running the code. Below information is provided for installing those components. Please consult ChatGPT or a chat service of your choice if you find trouble to apply those steps for your system.
 
@@ -39,7 +44,7 @@ This folder includes basic usage examples as tutorials of Ollama and its interac
 
 Aim of this tutorial is to examine the extent to which tests can be performed locally on agents, RAG, GraphRAG, etc., using tools like LangChain and models from Ollama.
 
-### Overall approach
+### Ollama server
 
 The overall approach that this tutorial is using Ollama in python. To this end, the Ollama server needs to start in a new screen
 
